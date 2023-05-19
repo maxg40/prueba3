@@ -1,0 +1,30 @@
+.conteiner-redes {
+    display: flex;
+    justify-content: space-around;
+    transition: all 4ms ease-in-out;
+    :hover {
+        transform: scale(1.2);
+    }
+}
+
+.img-sizes {
+    height: 50px;
+    width: 50px;
+}
+
+.decor-logo{
+    margin: 10px 20px 20px 20px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);    
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.copyright {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
